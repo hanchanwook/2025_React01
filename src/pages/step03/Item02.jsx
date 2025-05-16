@@ -17,15 +17,12 @@ function Item02(props) {
 }
 */
 // 주의 사항 : 인자의 이름은 같아야 한다.
-function Item02(title, content) {
+function Item02(props) {
     return (
             <ul>    
-                <li>과목 : ${title}</li>  
-                <li>{`과목 : ${title}`}</li>  
-                <li> 내용 : {content}</li>
+                <li>과목 : {props.title}</li>  
+                <li>내용 : {props.content}</li>
             </ul>
-
-                
     );
 }
 

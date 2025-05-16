@@ -15,6 +15,8 @@ function Main(props){
             <List02 /> 
             <Profile />
             <CommentList />
+            <FrlteredCommentsList />
+            <FrlteredCommentsList2 />
         </main>
     );
 

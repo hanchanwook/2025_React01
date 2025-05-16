@@ -5,6 +5,7 @@ const comments = [
     {name: "장길산", comment: "헬로우"},
     {name: "일지매", comment: "안녕하세요"},
 ];
+
 export default function CommentList(props) {
     return (
       <>
