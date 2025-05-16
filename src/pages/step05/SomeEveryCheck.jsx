@@ -14,7 +14,7 @@ export default function SomeEveryCheck(){
     const result2 = comments.every(k=>k.isAdmin);
     return (
         <>
-            <h2>관리자 리스트트</h2>
+            <h2>관리자 리스트</h2>
             <p>관리자 댓글 있냐? {result1 ? "있음" : "없음"}</p>
             <p>모두 관리자가 쓴 댓글이냐? {result2 ? "전부 관리자" : "일부만 관리자"}</p>
         </>

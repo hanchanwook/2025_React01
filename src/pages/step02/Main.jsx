@@ -2,9 +2,13 @@ import List01 from "../step03/List01";
 import List02 from "../step03/List02";
 import Profile from "../step03/Profile";
 import CommentList from "../step04/CommentList";
+import Counter from "./Counter";
+import FilteredCommentList from "../step05/FilteredCommentList";
+import FilteredCommentList2 from "../step05/FilteredCommentList2";
 import FindAdminComment from "../step05/FindAdminComment";
 import ReduceComment from "../step05/ReduceComment";
-import Counter from "./Counter";
+import IfExam01 from "../step06/IfExam01";
+import IfExam02List from "../step06/IfExam02List";
 
 function Main(props){
     return(
@@ -17,14 +21,17 @@ function Main(props){
             <List02 /> 
             <Profile />
             <CommentList />
-            <FrlteredCommentsList />
-            <FrlteredCommentsList2 />
+            <FilteredCommentList />
+            <FilteredCommentList2 />
             <FindAdminComment />
-            <FindAdminComment2 />
             <ReduceComment />
+            <IfExam01 />
+            <IfExam02List />
+            <TextList01 />
+            <TextList02 />
+            
         </main>
     );
-
 };
 
 export default Main;
