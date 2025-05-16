@@ -2,6 +2,8 @@ import List01 from "../step03/List01";
 import List02 from "../step03/List02";
 import Profile from "../step03/Profile";
 import CommentList from "../step04/CommentList";
+import FindAdminComment from "../step05/FindAdminComment";
+import ReduceComment from "../step05/ReduceComment";
 import Counter from "./Counter";
 
 function Main(props){
@@ -17,6 +19,9 @@ function Main(props){
             <CommentList />
             <FrlteredCommentsList />
             <FrlteredCommentsList2 />
+            <FindAdminComment />
+            <FindAdminComment2 />
+            <ReduceComment />
         </main>
     );
 
